@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.courses-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.course {
+    padding: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+}
+.course h2 {
+    margin-top: 0;
+}
+.course p {
+    margin-bottom: 0;
+}
+.search-container {
+    margin-top: 20px;
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+.search-container input[type="text"] {
+    padding: 10px;
+    width: 35%;
+    margin: 15px;
+    box-sizing: border-box;
+}
+.search-container input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.search-container input[type="submit"]:hover {
+    background-color: #555;
+}
+.view-details {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.view-details:hover {
+    background-color: #555;
+}
+label[for='id_query']{
+    display:none
+}
+.action{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-remove{
+    background-color: rgb(172, 2, 2);
+    transition: ease 0.3s;
+}
+.btn-remove:hover{
+    background-color: red;
+}
